@@ -6,10 +6,27 @@
   "scripts": {
     "dev": "next dev"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustommarques/tabnews-clone.git"
+  },
+  "keywords": ["tabnews"],
+  "author": "Augusto Marques",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augustommarques/tabnews-clone/issues"
+  },
+  "homepage": "https://github.com/augustommarques/tabnews-clone#readme",
   "dependencies": {
-    "next": "^14.2.4"
+    "dotenv": "^16.4.4",
+    "next": "^13.1.6",
+    "node-pg-migrate": "^7.5.2",
+    "pg": "^8.11.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "prettier": "^2.8.8"
   }
 }
